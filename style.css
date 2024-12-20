@@ -1,0 +1,10 @@
+/* style.css */
+
+body {
+    background-image: url('https://raw.githubusercontent.com/GenkiMineruz/GenkiMiner/main/background.jpg');
+    background-size: cover; /* Ekranni to'liq qoplaydi */
+    background-repeat: no-repeat; /* Rasm takrorlanmasligi uchun */
+    background-position: center center; /* Markazlashtirish */
+    height: 100vh; /* Ekran balandligini to'liq egallash */
+    margin: 0; /* Marginni olib tashlash */
+}
