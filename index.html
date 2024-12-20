@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genki Miner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Genki Miner botiga Xush Kelibsiz!</h1>
+        <button id="playButton">Play</button>
+        <audio id="audio" src="https://github.com/GenkiMineruz/GenkiMiner/raw/refs/heads/main/Mp3%20Editor_241220144834.mp3"></audio>
+    </div>
+    <script>
+        document.getElementById('playButton').addEventListener('click', function() {
+            const audio = document.getElementById('audio');
+            audio.play();
+            alert("Audio ijro etilmoqda!");
+        });
+    </script>
+</body>
+</html>
