@@ -10,13 +10,24 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f3f4f6;
+            background-image: url('https://github.com/GenkiMineruz/GenkiMiner/raw/main/background.jpg'); /* Orqa fon rasmi */
+            background-size: cover; /* Rasmni to'liq ekran bo'ylab joylashtiradi */
+            background-repeat: no-repeat; /* Rasmni takrorlanmasligi uchun */
+            background-position: center; /* Rasmni markazda joylashtiradi */
         }
         .container {
             margin-top: 50px;
+            background-color: rgba(255, 255, 255, 0.8); /* Oq rangda shaffof fon */
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
         }
         h1 {
             color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
         }
         button {
             padding: 10px 20px;
@@ -34,7 +45,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Genki Miner botiga Xush Kelibsiz!</h1>
+        <h1>Genki Minerga Xush Kelibsiz!</h1>
+        <p>Kiripto Qazib Olish Uchun Play Tugmasini Bosing</p>
         <button id="playButton">Play</button>
         <audio id="audio" src="https://github.com/GenkiMineruz/GenkiMiner/raw/refs/heads/main/Mp3%20Editor_241220144834.mp3"></audio>
     </div>
